@@ -1,0 +1,15 @@
+frase = input('Qual seu nome completo: ')
+print(frase.upper())
+print(frase.lower())
+print(len(frase.strip())-frase.count(' '))
+print(len(frase))
+primeiro = frase.split()[0]
+ultimo = frase.rsplit()[-1]
+print('Primeiro = {}'.format(primeiro))
+print('Ultimo = {}'.format(ultimo))
+print(len(primeiro))
+print('Comeca com Joao {}'.format(primeiro == 'Joao'))
+print('Tem Silva no nome: {}'.format(frase.find('Silva')))
+print('Quantidade de a no nome {}'.format(frase.count('a')))
+print('ultimo esta na posicao {}'.format(frase.rfind('a')))
+print('primerio a esta na posicao {}'.format(frase.find('a')))
